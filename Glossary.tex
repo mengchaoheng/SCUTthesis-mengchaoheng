@@ -1,0 +1,25 @@
+\chapter*{名词以及符号表}
+%
+\begin{table}
+	\caption{\label{DF_para}单涵道模型参数}
+	\centering{}%
+	\small 
+\begin{longtable}{|>{\centering}m{2.5cm}|>{\centering}m{0.5cm}|>{\centering}m{5cm}|>{\centering}m{8cm}|}
+	\hline 
+	名词 				  &  符号 & 解释 & 英文名 \tabularnewline
+	\hline 
+	控制律 			 & $ \bm{\tau}_c $ & 顶层控制算法确定，如姿态跟踪算法，航空领域通常是期望力矩。 & control law \tabularnewline
+	\hline 
+	伪控制指令、虚拟控制量& $ \bm{\tau} $ & 由控制律确定，通常等同于控制律，也可能等于控制律减线性化产生的截距项，表示力矩或角加速度等。 & virtual control command\cite{Harkegard_2002}\cite{Harkegaard_2004}, virtual control\cite{Harkegard_2002}\cite{Johansen_2013}, virtual input\cite{Johansen_2013}, desired moments(the output of some control law)\cite{Durham_2017}, virtual control input\cite{Vermillion_2007}, desired moments/accelerations\cite{Luo_2004},   \tabularnewline
+	\hline 
+	执行器						&  & 舵机等，驱动操纵面。 & Actuators  \tabularnewline
+	\hline 
+	执行器指令		   & $ \bm{\delta}_c $ & 舵机指令，舵机位置/角度指令。 &  commanded actuator positions\cite{Harkegaard_2004},control
+	inputs\cite{Harkegaard_2004}\cite{Johansen_2013}\cite{Vermillion_2007}\cite{Luo_2007}, control vector/actuator commands/commanded positions of the control surfaces\cite{Harkegard_2002} \tabularnewline
+	\hline 
+	操纵面、控制舵	      &  & 气动舵面，产生力矩。 & Effectors\cite{Johansen_2013}, Control effector\cite{Durham_2017}\cite{Luo_2004}  \tabularnewline
+	\hline 
+	操纵面状态、操纵面偏转角、控制舵偏转角、执行器位置& $ \bm{\delta} $ & 舵偏转角。 & actuator positions\cite{Harkegaard_2004}, control effector deflections\cite{Durham_2017}, control vector\cite{Durham_2017}, control surface deflections\cite{Luo_2007}  \tabularnewline
+	\hline 
+\end{longtable}
+\end{table}

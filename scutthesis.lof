@@ -1,0 +1,122 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-1}{\ignorespaces iSTAR\relax }}{2}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-2}{\ignorespaces Hovereye\relax }}{2}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-3}{\ignorespaces T-Hawk\relax }}{2}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-4}{\ignorespaces GTSpy\relax }}{2}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-5}{\ignorespaces Vbat\relax }}{3}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1-6}{\ignorespaces Martin Jetpack\relax }}{3}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-1}{\ignorespaces 单涵道风扇式无人机\relax }}{8}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-2}{\ignorespaces 双涵道风扇式无人机\relax }}{8}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-3}{\ignorespaces 地面坐标系及机体坐标系\relax }}{9}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-4}{\ignorespaces 欧拉角的定义\relax }}{9}{figure.caption.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-5}{\ignorespaces 轴流状态的空气动力学\relax }}{13}{figure.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-6}{\ignorespaces 升力系数\relax }}{16}{figure.caption.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-7}{\ignorespaces 阻力系数\relax }}{16}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-8}{\ignorespaces 单涵道力臂示意图\relax }}{17}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-9}{\ignorespaces 固定气动面上的流场及气动力\relax }}{18}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-10}{\ignorespaces 双涵道力臂示意图\relax }}{20}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-11}{\ignorespaces 被控对象simulink\relax }}{22}{figure.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-12}{\ignorespaces Calculate Force模块\relax }}{22}{figure.caption.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2-13}{\ignorespaces Calculate Torque模块\relax }}{22}{figure.caption.23}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-1}{\ignorespaces 自抗扰控制器结构框图\relax }}{28}{figure.caption.24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3-2}{\ignorespaces ADRC控制器仿真\relax }}{34}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-1}{\ignorespaces 基于控制分配的控制系统\relax }}{37}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-2}{\ignorespaces 姿态控制系统框图\relax }}{41}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-3}{\ignorespaces 伪逆法和直接分配法的可达集对比\relax }}{42}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-4}{\ignorespaces 优先级分配法流程图\relax }}{45}{figure.caption.29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-5}{\ignorespaces 二维优先级分配法和直接分配法对比\relax }}{45}{figure.caption.30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-6}{\ignorespaces 基于优先级控制分配单涵道姿态控制\relax }}{45}{figure.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-7}{\ignorespaces 双涵道的AMS和伪逆法可达集$\Pi $\relax }}{47}{figure.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-8}{\ignorespaces 数字舵机\relax }}{48}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-9}{\ignorespaces 无刷直流电机\relax }}{48}{figure.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4-10}{\ignorespaces 含执行器动态补偿的双涵道控制分配\relax }}{50}{figure.caption.34}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-1}{\ignorespaces DFUAV的飞行控制系统\relax }}{52}{figure.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-2}{\ignorespaces 验证方法示意图\relax }}{53}{figure.caption.36}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-3}{\ignorespaces 滚转角速度$ p $测量值与理论值\relax }}{53}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-4}{\ignorespaces 滚转角测量值与理论值\relax }}{53}{figure.caption.37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-5}{\ignorespaces NED系下速度$ V_y $测量值与理论值\relax }}{54}{figure.caption.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-6}{\ignorespaces 偏航角速度$ r $测量值与理论值\relax }}{54}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-7}{\ignorespaces 偏航角测量值与理论值\relax }}{54}{figure.caption.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-8}{\ignorespaces 总和扰动的估计值和理论值对比\relax }}{55}{figure.caption.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-9}{\ignorespaces 伪控制输入响应曲线\relax }}{56}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-10}{\ignorespaces 阶跃伪控制输入\relax }}{57}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-11}{\ignorespaces 频率信号伪控制输入\relax }}{58}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-12}{\ignorespaces 含（with）与不含（without）执行器补偿的频率信号响应对比\relax }}{59}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-13}{\ignorespaces 飞行试验\relax }}{60}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-14}{\ignorespaces 飞控系统框图\relax }}{60}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-15}{\ignorespaces 在无外扰的情况下，分别使用伪逆、直接、优先级分配的阶跃响应\relax }}{61}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-16}{\ignorespaces 无外扰时的1到4号舵面偏转角\relax }}{62}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-17}{\ignorespaces 添加扰动，分别使用伪逆、直接分配的阶跃响应\relax }}{63}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-18}{\ignorespaces 添加扰动，使用优先级分配的阶跃响应\relax }}{63}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-19}{\ignorespaces 添加扰动时的1到4号舵面偏转角\relax }}{64}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-20}{\ignorespaces 正弦扰动抑制试验闭环系统\relax }}{65}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5-21}{\ignorespaces 正弦扰动抑制效果\relax }}{65}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\contentsfinish 

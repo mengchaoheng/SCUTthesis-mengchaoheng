@@ -1,0 +1,97 @@
+%\documentclass[unicode,master]{scutthesis} % 草稿封面
+\documentclass[unicode,master,pdfcover]{scutthesis} %   % pdfcover为可选项，终稿再添加
+\usepackage{fontspec,color,array,longtable,graphicx}
+\usepackage[unicode=true,
+bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
+breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=true]
+{hyperref}
+\hypersetup{pdftitle={基于自抗扰控制的涵道无人机控制分配研究},
+	pdfauthor={蒙超恒},
+	pdfsubject={华南理工大学硕士学位论文},
+	pdfkeywords={涵道风扇式无人机；控制分配；自抗扰控制；多操纵面飞行器},
+		linkcolor=black, anchorcolor=black, citecolor=black, filecolor=black, menucolor=black, urlcolor=black, pdfstartview=FitH}
+%	linkcolor=blue, anchorcolor=black, citecolor=red, filecolor=magenta, menucolor=red, urlcolor=magenta, pdfstartview=FitH}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{\texorpdfstring%
+	{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+	{LyX}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+\makeatother
+
+\usepackage{listings}
+\usepackage{xunicode}
+\renewcommand{\lstlistingname}{列表}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%——by MCH
+%编译范围
+%\includeonly{chapter02,chapter05,chapter06}
+%\includeonly{chapter04,chapter05,Glossary}
+%\includeonly{chapter01}
+%参考文献设置
+\usepackage[backend=biber,style=gb7714-2015,gbalign=gb7714-2015,gbpub=false,gbnamefmt = lowercase]{biblatex}
+\addbibresource[location=local]{F:/MyLibrary.bib}
+%页眉页脚设置
+\usepackage{emptypage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[C]{\headfont\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhead[RE]{}
+\fancyhead[RO]{}
+\fancyhead[LE]{}
+\fancyhead[LO]{}
+\fancyhead[CO]{\headfont{\leftmark}}
+\fancyhead[CE]{\headfont{华南理工大学硕士学位论文}}% 
+\renewcommand{\headrulewidth}{1.5pt}
+\renewcommand{\footrulewidth}{0pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}	
+	\title{基于自抗扰控制的涵道无人机控制分配研究}	
+	\author{蒙超恒}	
+	\supervisor{指导教师：裴海龙\ 教授}	
+	\institute{华南理工大学}	
+	\date{2020年5月20日}	
+	\maketitle	
+	\frontmatter
+	
+	\include{abstract} % Chinese/English abstract
+	\tableofcontents{}
+%%	\listoftables
+	\listoffigures
+	\include{symbols}
+%%	\include{abbreviation} 
+	
+	\mainmatter %Arabic numerals for page numbering
+	
+    %%%%%%%%%%%%%%%%%%%页眉页脚设置 ——by MCH 
+    \fancypagestyle{plain}{
+    	\pagestyle{fancy}
+    }
+    \pagestyle{fancy}
+    %%%%%%%%%%%%%%%%%%% 
+	\include{chapter01}
+	\include{chapter02}
+	\include{chapter03}
+	\include{chapter04}
+	\include{chapter05}
+	\backmatter %no chapter numbering but page number continues.
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    微调，使得后续章节的页眉不带章号——by MCH
+	\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\include{conclusion}
+%%	\include{Glossary}
+	 %%%%%%%%%%%%%%%%%%%bibtex参考文献设置  （原版）
+%%	\bibliographystyle{scutthesis}
+%%	\bibliography{F:/MyLibrary}
+	%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%biber参考文献设置	——by MCH
+	\addcontentsline{toc}{chapter}{参考文献}	%目录中添加参考文献
+	\printbibliography	
+ 	%%%%%%%%%%%%%%%%%%%
+%	\include{appendix}
+	\include{pub}
+	\include{ack}
+\end{document}

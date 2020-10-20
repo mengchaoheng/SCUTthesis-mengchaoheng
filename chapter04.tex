@@ -406,14 +406,14 @@ l_{2} & l_{2} & l_{2} & l_{2}
 \end{bmatrix}	\label{eq_new_TDF_M_c}
 \end{align}	
 
-分别记左、右涵道风扇转速为$ \varpi_{{1}} $、$ \varpi_{{2}} $，定义操纵面$\delta_9=\varpi_{{1}}-\varpi_{{2}}$，并定义 $\varpi _{{s}}=\varpi_{{1}}+\varpi_{{2}}$，有
+分别记左、右涵道风扇转速为$ \varpi_{{1}} $、$ \varpi_{{2}} $，定义操纵面$\delta_9=T_{Lp}- T_{Rp}$，有
 \begin{align}
-T_{Lp}- T_{Rp} = k_{\varpi}\left( \varpi _{{1}}^{2}-\varpi _{{2}}^{2} \right)= k_{\varpi} \varpi_{{s}}  \delta_9
+T_{Lp}- T_{Rp} = k_{\varpi}\left( \varpi _{{1}}^{2}-\varpi _{{2}}^{2} \right)=    \delta_9
 \end{align}
 此时，双管风扇无人机的操纵面是八个控制舵和风扇（将两个风扇当作一个操纵面使用）。 参照式\eqref{eq_tayler}的处理，得线性操纵面模型
 \begin{gather}
 \bm{\tau}=\bm{I}^{-1}\bm{M}_{ {c}}=\bm{B}\bm{\delta}	\\
-\bm{B}\triangleq \bm{I}^{-1}\bm{P}diag\left( k_{\delta} (V_i+V_c)^2,\ldots ,k_{\delta} (V_i+V_c)^2, k_{\varpi}\varpi_s \right) \\
+\bm{B}\triangleq \bm{I}^{-1}\bm{P}diag\left( k_{\delta} (V_i+V_c)^2,\ldots ,k_{\delta} (V_i+V_c)^2, k_{\varpi} \right) \\
 \bm{\delta}\triangleq {\left[ 
 	\begin{matrix}
 	\delta_1 & \delta_2 & \ldots  & \delta_8 & \delta_9  \\
@@ -425,16 +425,16 @@ l_{3} & -l_{4} & l_{3} & l_{5} & l_{3} & l_{5} & l_{3} & -l_{4}&0
 \end{bmatrix}
 \end{gather}
 
-如前文所述，每个控制舵偏转角的范围是$\pm {{20}^{{}^\circ }}$，用弧度制表示即$\pm {\frac{\pi}{9}\, \text{rad}}$。驱动操纵面的执行器如图\ref{servo}所示，其最大转动角速率为$\frac{80\pi}{9}\, {\text{rad}}/{\text{s}}$。 涵道风扇由如图\ref{motor}所示的电机驱动，其转速范围为$300 \sim 1600\,{\text{rad}}/{\text{s}}\,$，转速变化率最大值为$800\,{\text{rad}}/{{{\text{s}}^{2}}}$。 在上文我们定义操纵面$\delta_9$代表左右涵道风扇的转速差， 考虑到风扇应主要用于提供升力，因此将用于提供滚转力矩的风扇转速范围限制为$-200 \sim 200\,{\text{rad}}/{\text{s}}\;$，因此有
+如前文所述，每个控制舵偏转角的范围是$\pm {{20}^{{}^\circ }}$，用弧度制表示即$\pm {\frac{\pi}{9}\, \text{rad}}$。驱动操纵面的执行器如图\ref{servo}所示，其最大转动角速率为$\frac{80\pi}{9}\, {\text{rad}}/{\text{s}}$。 涵道风扇由如图\ref{motor}所示的电机驱动，其转速范围为$300 \sim 1600\,{\text{rad}}/{\text{s}}\,$，转速变化率最大值为$466.6667\,{\text{rad}}/{{{\text{s}}^{2}}}$。 在上文我们定义操纵面$\delta_9$代表左右涵道风扇的拉力差， 考虑到风扇应主要用于提供升力，因此将用于提供滚转力矩的风扇转速范围限制为$-200 \sim 200\,{\text{rad}}/{\text{s}}$，结合悬停点附近的$  k_{\varpi} $的值，有
 \begin{gather}
 \underline{\bm{\delta}}	=\left[ \begin{matrix}
--\dfrac{\pi}{9} & \cdots & -\dfrac{\pi}{9} & -200 
+-\dfrac{\pi}{9} & \cdots & -\dfrac{\pi}{9} & -4.2513 
 \end{matrix} \right]^\top	\\
 \overline{\bm{\delta}} =\left[ \begin{matrix}
-\dfrac{\pi}{9}  & \cdots   & \dfrac{\pi}{9} & 200  
+\dfrac{\pi}{9}  & \cdots   & \dfrac{\pi}{9} & 4.2513  
 \end{matrix} \right]^\top	\\
 \bm{u}_{m}=\left[ \begin{matrix}
-\dfrac{80\pi}{9}  & \cdots  & \dfrac{80\pi}{9}  & 800  
+\dfrac{80\pi}{9}  & \cdots  & \dfrac{80\pi}{9}  & 9.9197  
 \end{matrix} \right]^\top	\label{eq_TDF_constraint}
 \end{gather}
   
@@ -443,7 +443,7 @@ l_{3} & -l_{4} & l_{3} & l_{5} & l_{3} & l_{5} & l_{3} & -l_{4}&0
 一方面，AMS的范围由位置约束和控制效率矩阵确定\cite{Durham_2017}。 在悬停点附近，测得双涵道无人机的控制效率矩阵为
 \begin{align}\bm{B}=
 \begin{bmatrix}
--4.67 & 0 & 4.67 & 0 & -4.67 & 0 & 4.67 & 0 & 0.08 \\
+-4.67 & 0 & 4.67 & 0 & -4.67 & 0 & 4.67 & 0 & 3.2055 \\
 0 & -14.96 & 0 & 14.96 & 0 & -14.96 & 0 & 14.96 & 0 \\
 4.26 & -6.96 & 4.26 & 15.49 & 4.26 & 15.49 & 4.26 & -6.96 & 0
 \end{bmatrix}
@@ -534,7 +534,7 @@ ${{\bm{ \delta}}_{ {s}}}$可以取为以下优化问题的解
 &\bm{v }=\bm{B}\bm{ \delta}_{ {s}}
 \end{split} \label{eq_solu_u_s}
 \end{alignat}
-其中首选值 ${{\bm{ \delta}}_{ {d}}}$ 通常取为满足特定要求但不在容许控制集内的固定值。 为了使控制舵在稳态时的气动阻力最小，选择${{\bm{ \delta}}_{ {d}}}={{\bm{0}}_{9\times 1}}$和 ${{\bm{W}}_{ {s}}}\bm{=I}$，即取${{\bm{ \delta}}_{ {s}}}$为某种广义逆解。
+其中首选值 ${{\bm{ \delta}}_{ {d}}}$ 通常取为满足特定要求但不是可行解的固定值。 为了使控制舵在稳态时的气动阻力最小，选择${{\bm{ \delta}}_{ {d}}}={{\bm{0}}_{9\times 1}}$和 ${{\bm{W}}_{ {s}}}\bm{=I}$，即取${{\bm{ \delta}}_{ {s}}}$为某种广义逆解。
 
 为了确保控制舵有一定的余量来处理可能的高频伪控制输入，进入稳定状态后，滚转相关的控制舵应保持零偏转。 因此，考虑将$ \bm{ \delta}_{ {s}} $的分量的约束${ \delta_{ {s},\, {i}}}=0$， $i=1,3,5,7$添加到\eqref{eq_solu_u_s}中，则其解可以通过以下方法获得：将控制有效性矩阵$\bm{B}$分为${{\bm{B}}_{1}}$和${{\bm{B}}_{2}}$，其中${{\bm{B}}_{1}}$由与滚转相关的控制舵对应的$\bm{B}$列组成，${{\bm{B}}_{2}}$为其余的列组成。对$\bm{B}$的广义逆矩阵$\bm{S}$进行类似的矩阵分块，使得$\bm{I} ={\bm{B}_1}{\bm{S}_1} + {\bm{B}_2}{\bm{S}_2}$。 取${{\bm{S}}_{1}}={{\bm{0}}_{4\times 9}}$和${{\bm{S}}_{2}}=\bm{B}_{2}^{+}$，因此，式\eqref{eq_solu_u_s}的解可以取为${{\bm{ \delta}}_{ {s}}}=\bm{S}\bm{v}$。 至此，可以通过二次规划方法来求解动态控制分配问题的解\eqref {eq_sulotion_dca}，例如有效集方法。
 \subsection{补偿执行器动态}

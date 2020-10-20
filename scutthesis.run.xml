@@ -83,7 +83,7 @@
       <file>scutthesis.bcf</file>
     </requires>
     <requires type="editable">
-      <file>F:/MyLibrary.bib</file>
+      <file>MyLibrary.bib</file>
     </requires>
   </external>
 </requests>

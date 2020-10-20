@@ -408,14 +408,24 @@
       \field{series}{5th {{IFAC Conference}} on {{Advances}} in {{Control}} and {{Optimization}} of {{Dynamical Systems ACODS}} 2018}
       \field{shortjournal}{IFAC-PapersOnLine}
       \field{title}{A {{Novel Bi}}-Rotor {{Configuration}} and Its {{Control}}}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
       \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
       \field{volume}{51}
       \field{year}{2018}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
       \field{pages}{456\bibrangedash 461}
       \range{pages}{6}
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S2405896318302404
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S2405896318302404
+      \endverb
       \keyw{Siddhardha_2018}
     \endentry
     \entry{Kamel_2018}{article}{}
@@ -1164,9 +1174,19 @@
       \field{langid}{english}
       \field{lansortorder}{4}
       \field{title}{V-{{BAT}} - {{Martin UAV}}}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
       \field{usera}{EB}
       \field{userd}{english}
       \field{userf}{english}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://martinuav.com/v-bat/
+      \endverb
+      \verb{url}
+      \verb https://martinuav.com/v-bat/
+      \endverb
       \keyw{Martin_}
     \endentry
     \entry{Wang_2018}{article}{}
@@ -1415,11 +1435,21 @@
       \field{langid}{english}
       \field{lansortorder}{4}
       \field{title}{Mathematical {{Modeling}} of a {{Small Scale Ducted}}-{{Fan UAV}}}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
       \field{usera}{C}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2011}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://arc.aiaa.org/doi/10.2514/6.2011-6519
+      \endverb
+      \verb{url}
+      \verb http://arc.aiaa.org/doi/10.2514/6.2011-6519
+      \endverb
       \keyw{Choi_2011}
     \endentry
     \entry{Fleming_2003}{inproceedings}{}
@@ -2598,11 +2628,21 @@
       \field{langid}{english}
       \field{lansortorder}{1}
       \field{title}{涵道螺旋桨气动计算的片条理论及其应用}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
       \field{usera}{C}
       \field{userd}{chinese}
       \field{userf}{chinese}
       \field{year}{2006}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://d.wanfangdata.com.cn/Conference/6294475
+      \endverb
+      \verb{url}
+      \verb http://d.wanfangdata.com.cn/Conference/6294475
+      \endverb
       \keyw{Liu_2006}
     \endentry
     \entry{Stiltner_2012}{inproceedings}{}
@@ -2650,7 +2690,7 @@
       \range{pages}{1}
       \keyw{Stiltner_2012}
     \endentry
-    \entry{Sheldahl_1981}{report}{}
+    \entry{Sheldahl_1981}{online}{}
       \name{author}{2}{}{%
         {{hash=ca506784fc264f0edcf65ebd03fa361e}{%
            family={Sheldahl},
@@ -2686,14 +2726,25 @@
       \field{langid}{english}
       \field{lansortorder}{4}
       \field{month}{3}
+      \field{note}{report}
       \field{number}{SAND-80-2114}
       \field{title}{Aerodynamic Characteristics of Seven Symmetrical Airfoil Sections through 180-Degree Angle of Attack for Use in Aerodynamic Analysis of Vertical Axis Wind Turbines}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
       \field{usera}{R}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{1981}
       \field{dateera}{ce}
-      \keyw{Sheldahl_1981}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.osti.gov/biblio/6548367
+      \endverb
+      \verb{url}
+      \verb https://www.osti.gov/biblio/6548367
+      \endverb
+      \keyw{Sheldahl_1981,report}
     \endentry
     \entry{Wu_2011}{article}{}
       \name{author}{4}{}{%
@@ -3969,7 +4020,7 @@
       \range{pages}{16}
       \keyw{Sheng_2015}
     \endentry
-    \entry{Straub_2016}{thesis}{}
+    \entry{Straub_2016}{online}{}
       \name{author}{1}{}{%
         {{hash=6443ddf380dcfcb61c63e8413dc85fe5}{%
            family={Straub},
@@ -3998,11 +4049,21 @@
       \field{lansortorder}{4}
       \field{month}{9}
       \field{title}{Instrumentation and {{Control}} of a {{Ducted Fan Unmanned Aerial Vehicle}} in {{Hover Mode}}}
+      \field{urlday}{19}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
       \field{usera}{D}
       \field{userd}{english}
       \field{userf}{english}
       \field{year}{2016}
       \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vtechworks.lib.vt.edu/handle/10919/72889
+      \endverb
+      \verb{url}
+      \verb https://vtechworks.lib.vt.edu/handle/10919/72889
+      \endverb
       \keyw{Straub_2016}
     \endentry
     \entry{Zhao_2008}{inproceedings}{}

@@ -489,7 +489,7 @@ l\left( {\bm{\delta},{\bm{v}_{{c}}}} \right) \triangleq
 
 因此，如果问题没有解，则矩阵${{\bm{W}}_{ {v}}}$ 将加权分配误差来影响伪控制输入的限幅方式。如果问题有多个解，则矩阵${{\bm{W}}_{1}}$ 和 ${{\bm{W}}_{2}}$将平衡跟踪 ${{\bm{u}}_{ {s}}}$ 和 ${{\bm{u}}_{0}}$ 。${{\bm{W}}_{1}}$的需求，矩阵${{\bm{W}}_{1}}$的对角线元素越大，相应的执行器收敛越快，${{\bm{W}}_{2}}$ 的对角线元素越大，将使执行器指令变化幅度越小。如果满足以下假设，则式\eqref {eq_sulotion_dca}是唯一的最优解\cite{Harkegaard_2004}
 \begin{assumption}
-加权矩阵${{\bm{W}}_{1}}$和 ${{\bm{W}}_{2}}$ 是对称矩阵，且$ {{\bm{W}}_{2}}$非奇异。	\label{assum_dca1}
+加权矩阵${{\bm{W}}_{1}}$和 ${{\bm{W}}_{2}}$ 是对称矩阵，且$\bm{W} = {\left( {\bm{W}_1^2 + \bm{W}_2^2} \right)^{\frac{1}{2}}}$非奇异。	\label{assum_dca1}
 \end{assumption}
 
 为了确定参数${{\bm{u}}_{ {s}}}$，$\bm{W}_1$和$\bm{W}_2$，我们首先讨论式\eqref{eq_no_constraint_problem}所示的无约束控制分配问题的解，并陈述以下定理而无需证明\cite{Harkegaard_2004}。

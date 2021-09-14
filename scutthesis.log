@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.28)  20 OCT 2020 12:43
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.27)  14 SEP 2021 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1954,13 +1954,13 @@ Underfull \vbox (badness 10000) detected at line 14
 ] [80
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (./scutthesis.aux (./abstract.aux) (./symbols.aux) (./chapter01.aux) (./chapte
 r02.aux) (./chapter03.aux) (./chapter04.aux)
 (./chapter05.aux) (./conclusion.aux) (./pub.aux) (./ack.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `scutthesis.out' has not changed.
 (rerunfilecheck)             Checksum: CDC52A07B131248888C0DA1C1B68F23D;9412.
 Package logreq Info: Writing requests to 'scutthesis.run.xml'.
@@ -1970,7 +1970,7 @@ Package logreq Info: Writing requests to 'scutthesis.run.xml'.
 Here is how much of TeX's memory you used:
  33641 strings out of 479418
  628768 string characters out of 5888105
- 1467264 words of memory out of 5000000
+ 1467234 words of memory out of 5000000
  50542 multiletter control sequences out of 15000+600000
  545293 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

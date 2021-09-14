@@ -427,15 +427,15 @@
   \addcontentsline{toc}{chapter}{#1}
 }
 
-\renewcommand{\appendix}[1]{%
-  % \chaptertitle is not available for those chapters without label number.
-   \cleardoublepage
-   \renewcommand{\thesection}{{#1}\arabic{section}}
-   \chapter*{#1}
-   \chapterxname{\thesection\quad\sectiontitle}
-   \addcontentsline{toc}{chapter}{#1}
-   \setcounter{section}{0}
-}
+%\renewcommand{\appendix}[1]{%
+%  % \chaptertitle is not available for those chapters without label number.
+%   \cleardoublepage
+%   \renewcommand{\thesection}{{#1}\arabic{section}}
+%   \chapter*{#1}
+%   \chapterxname{\thesection\quad\sectiontitle}
+%   \addcontentsline{toc}{chapter}{#1}
+%   \setcounter{section}{0}
+%}
 
 \renewenvironment{verse}
                {\let\\\@centercr

@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [1] Config.pm:307> INFO - Logfile is 'scutthesis.blg'
-[295] biber-MSWIN32:322> INFO - === 
-[394] Biber.pm:415> INFO - Reading 'scutthesis.bcf'
-[1400] Biber.pm:943> INFO - Found 91 citekeys in bib section 0
-[1511] Biber.pm:4256> INFO - Processing section 0
-[1512] Utils.pm:75> INFO - Globbing data source 'MyLibrary.bib'
-[1558] Utils.pm:91> INFO - Globbed data source 'MyLibrary.bib' to MyLibrary.bib
-[1620] Biber.pm:4455> INFO - Looking for bibtex format file 'MyLibrary.bib' for section 0
-[1684] bibtex.pm:1653> INFO - LaTeX decoding ...
-[2885] bibtex.pm:1471> INFO - Found BibTeX data source 'MyLibrary.bib'
-[3235] Utils.pm:304> WARN - ISBN '0733-4249' in entry 'Lipera_2001' is invalid - run biber with '--validate_datamodel' for details.
-[4782] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4782] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4782] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[4782] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[4919] bbl.pm:652> INFO - Writing 'scutthesis.bbl' with encoding 'UTF-8'
-[5016] bbl.pm:755> INFO - Output to scutthesis.bbl
-[5023] Biber.pm:128> INFO - WARNINGS: 1
+[100] biber-MSWIN32:322> INFO - === 
+[127] Biber.pm:415> INFO - Reading 'scutthesis.bcf'
+[339] Biber.pm:943> INFO - Found 91 citekeys in bib section 0
+[361] Biber.pm:4256> INFO - Processing section 0
+[362] Utils.pm:75> INFO - Globbing data source 'MyLibrary.bib'
+[428] Utils.pm:91> INFO - Globbed data source 'MyLibrary.bib' to MyLibrary.bib
+[487] Biber.pm:4455> INFO - Looking for bibtex format file 'MyLibrary.bib' for section 0
+[520] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1323] bibtex.pm:1471> INFO - Found BibTeX data source 'MyLibrary.bib'
+[1682] Utils.pm:304> WARN - ISBN '0733-4249' in entry 'Lipera_2001' is invalid - run biber with '--validate_datamodel' for details.
+[2600] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2600] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2600] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2600] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[2751] bbl.pm:652> INFO - Writing 'scutthesis.bbl' with encoding 'UTF-8'
+[2828] bbl.pm:755> INFO - Output to scutthesis.bbl
+[2828] Biber.pm:128> INFO - WARNINGS: 1
